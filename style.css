@@ -1,6 +1,10 @@
 body
 {
-    background: blue;
+    background: url(./image/background.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
 h1
 {
