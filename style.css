@@ -31,6 +31,7 @@ nav a
     display: inline-block;
     padding: 20px;
     text-decoration-line: underline;
+    font-size: 30px;
     
     
 }
@@ -60,12 +61,14 @@ img
     text-align: center;
     margin: auto;
 }
+/* Strong tag format */
 strong
 {
     font-weight: bold;
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Container box for education header */
 .Eduction
 {
     display: block;
@@ -78,4 +81,39 @@ strong
 .Eduction h1
 {
     margin-top: 0;
+}
+/* Pop up container */
+.popup
+{
+    position: relative;
+    display: inline;
+    cursor: pointer;
+}
+/* The actual pop up  */
+.popup .popuptext 
+{
+  visibility: hidden;
+  width: 400px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/* Toggle class to show and hide pop up */
+.popup .show
+{
+    visibility: visible;
+    -webkit-animation: ease-in 1s;
+    animation: ease-in 1s;
+}
+#list
+{
+    text-align: left;
+    margin: 0 auto;
 }
