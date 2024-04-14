@@ -16,6 +16,7 @@ header h1
     
     
     
+    
 }
 h2
 {
@@ -45,4 +46,36 @@ img
     width: 20%;
     display: block;
     margin: 0 auto;
+}
+.name
+{
+    text-align: center;
+    margin-right: 2%;
+    padding-top: 20px;
+    font-size: 65px;
+
+}
+#details
+{
+    text-align: center;
+    margin: auto;
+}
+strong
+{
+    font-weight: bold;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Eduction
+{
+    display: block;
+    width: 600px;
+    height: fit-content;
+    border: 1px solid red;
+    background-color: white;
+    margin-left: 30%;
+}
+.Eduction h1
+{
+    margin-top: 0;
 }
