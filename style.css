@@ -74,16 +74,10 @@ strong
     display: block;
     width: 600px;
     height: fit-content;
-<<<<<<< HEAD
-    border: 1px solid red;
-    background-color: white;
-    margin-left: 30%;
-=======
     border: 10px solid red;
     background-color: white;
     margin-left: 3%;
     float: left;
->>>>>>> c3759c2 (added Java script function and content in resume)
 }
 .Eduction h1
 {
@@ -97,30 +91,6 @@ strong
     cursor: pointer;
 }
 /* The actual pop up  */
-<<<<<<< HEAD
-.popup .popuptext 
-{
-  visibility: hidden;
-  width: 400px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-/* Toggle class to show and hide pop up */
-.popup .show
-{
-    visibility: visible;
-    -webkit-animation: ease-in 1s;
-    animation: ease-in 1s;
-}
-=======
 .popuptext 
 {
     visibility: hidden;
@@ -152,14 +122,10 @@ strong
     visibility: visible;
   }
   
->>>>>>> c3759c2 (added Java script function and content in resume)
 #list
 {
     text-align: left;
     margin: 0 auto;
-<<<<<<< HEAD
-}
-=======
 }
 .popup2
 {
@@ -191,4 +157,3 @@ strong
     text-align: left;
     margin: 0 auto;
   }
->>>>>>> c3759c2 (added Java script function and content in resume)
