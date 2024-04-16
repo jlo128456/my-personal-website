@@ -157,3 +157,13 @@ strong
     text-align: left;
     margin: 0 auto;
   }
+  .Experience
+  {
+    display: block;
+    width: 600px;
+    height: fit-content;
+    border: 10px solid red;
+    background-color: white;
+    margin-right: 15%;
+    float: right;
+  }
