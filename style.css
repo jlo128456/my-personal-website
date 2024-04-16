@@ -53,7 +53,7 @@ img
     text-align: center;
     margin-right: 2%;
     padding-top: 20px;
-    font-size: 65px;
+    font-size: 90px;
 
 }
 #details
@@ -160,10 +160,10 @@ strong
   .Experience
   {
     display: block;
-    width: 600px;
+    width: 728px;
     height: fit-content;
     border: 10px solid red;
     background-color: white;
-    margin-right: 15%;
+    margin-right: 10%;
     float: right;
   }
