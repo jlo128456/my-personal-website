@@ -73,6 +73,7 @@ strong
     height: fit-content;
     border: 5px solid red;
     border-bottom: none;
+    border-right: none;
     background-color: white;
     margin-left: 1%;
     float: left;
@@ -164,8 +165,9 @@ strong
     height: 100%;
     border: 5px solid red;
     border-top: none;
+    border-right: none;
     background-color: white;
-    margin-top: 20.1%;
+    margin-top: 10.1%;
     margin-left: 1%;
   }
   .Experience h1
@@ -281,9 +283,10 @@ strong
     height: fit-content;
     border: 5px solid red;
     border-bottom: none;
+    border-left: none;
     background-color: white;
     position: absolute;
-    top: 161px;
-    right: 195px;
+    top: 159px;
+    right: 345px;
     
 }
