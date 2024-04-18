@@ -287,15 +287,11 @@ strong
     background-color: white;
     position: absolute;
     top: 159px;
-    right: 340px;
+    right: 263px;
     
 }
 .Abilities h1
 {
     margin-top: 0;
     text-decoration: underline;
-}
-@media screen
-{
-    .Abilities, .Experience, .Eduction
 }
