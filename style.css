@@ -295,3 +295,7 @@ strong
     margin-top: 0;
     text-decoration: underline;
 }
+@media screen
+{
+    .Abilities, .Experience, .Eduction
+}
