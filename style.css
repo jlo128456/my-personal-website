@@ -287,6 +287,11 @@ strong
     background-color: white;
     position: absolute;
     top: 159px;
-    right: 345px;
+    right: 340px;
     
+}
+.Abilities h1
+{
+    margin-top: 0;
+    text-decoration: underline;
 }
