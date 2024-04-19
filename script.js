@@ -7,7 +7,8 @@ function popUpList()
 function popUpList2() 
 {
     var popup2 = document.getElementById("myPopup2");
-    popup2.classList.toggle("show");
+    popup2.classList.t
+    oggle("show");
    
 }
 
