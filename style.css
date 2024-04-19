@@ -70,10 +70,11 @@ strong
 {
     display: block;
     width: 643px;
-    height: fit-content;
+    height: 100%;
     border: 5px solid red;
     background-color: white;
     margin-left: 28%;
+    margin-bottom: 1.5%;
     float: left;
 
 }
@@ -169,7 +170,7 @@ strong
     height: 100%;
     border: 5px solid red;
     background-color: white;
-    margin-top: 21.1%;
+    margin-top: 20.1%;
     margin-left: 28%;
   }
   .Experience h1
@@ -282,7 +283,7 @@ strong
 {
     display: block;
     width: 643px;
-    height: 60.5%;
+    height: fit-content;
     border: 5px solid red;
     background-color: white;
     margin-left: 28%;
