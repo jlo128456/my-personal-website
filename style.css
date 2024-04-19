@@ -73,13 +73,19 @@ strong
     height: fit-content;
     border: 5px solid red;
     background-color: white;
-    margin-left: 6%;
+    margin-left: 28%;
     float: left;
+
 }
 .Eduction h1
 {
     margin-top: 0;
     text-decoration: underline;
+    text-align: center;
+}
+ section .Eduction
+{
+    text-align: center;
 }
 /* Pop up container */
 .popup
@@ -164,7 +170,7 @@ strong
     border: 5px solid red;
     background-color: white;
     margin-top: 21.1%;
-    margin-left: 6%;
+    margin-left: 28%;
   }
   .Experience h1
   {
@@ -279,9 +285,10 @@ strong
     height: 60.5%;
     border: 5px solid red;
     background-color: white;
-    position: absolute;
-    top: 159px;
-    right: 100px;
+    margin-left: 28%;
+    margin-top: 1.5%;
+
+   
     
 }
 .Abilities h1
