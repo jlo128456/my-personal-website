@@ -72,10 +72,8 @@ strong
     width: 643px;
     height: fit-content;
     border: 5px solid red;
-    border-bottom: none;
-    border-right: none;
     background-color: white;
-    margin-left: 1%;
+    margin-left: 6%;
     float: left;
 }
 .Eduction h1
@@ -164,11 +162,9 @@ strong
     width: 643px;
     height: 100%;
     border: 5px solid red;
-    border-top: none;
-    border-right: none;
     background-color: white;
-    margin-top: 10.1%;
-    margin-left: 1%;
+    margin-top: 21.1%;
+    margin-left: 6%;
   }
   .Experience h1
   {
@@ -280,14 +276,12 @@ strong
 {
     display: block;
     width: 643px;
-    height: fit-content;
+    height: 60.5%;
     border: 5px solid red;
-    border-bottom: none;
-    border-left: none;
     background-color: white;
     position: absolute;
     top: 159px;
-    right: 263px;
+    right: 100px;
     
 }
 .Abilities h1
