@@ -70,23 +70,19 @@ strong
 {
     display: block;
     width: 643px;
-    height: 100%;
     border: 5px solid red;
     background-color: white;
-    margin-left: 28%;
-    margin-bottom: 1.5%;
-    float: left;
-
+    border-bottom: none;
+  
 }
 .Eduction h1
 {
     margin-top: 0;
     text-decoration: underline;
-    text-align: center;
 }
- section .Eduction
+ div.Eduction
 {
-    text-align: center;
+    margin-left: 28vw;
 }
 /* Pop up container */
 .popup
@@ -167,16 +163,19 @@ strong
   {
     display: block;
     width: 643px;
-    height: 100%;
     border: 5px solid red;
     background-color: white;
-    margin-top: 22.1%;
-    margin-left: 28%;
+    border-top: none;
+    border-bottom: none;
   }
   .Experience h1
   {
     margin-top: 0;
     text-decoration-line: underline;
+  }
+  div.Experience
+  {
+    margin-left: 28vw;
   }
  a
  {
@@ -283,18 +282,18 @@ strong
 {
     display: block;
     width: 643px;
-    height: fit-content;
+    height: 600px;
     border: 5px solid red;
     background-color: white;
-    margin-left: 28%;
-    margin-top: 1.5%;
-    
-
-   
-    
+    border-top: none;
+  
 }
 .Abilities h1
 {
     margin-top: 0;
     text-decoration: underline;
+}
+div.Abilities
+{
+    margin-left: 28vw;
 }
