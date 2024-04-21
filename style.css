@@ -69,7 +69,7 @@ strong
 .Eduction
 {
     display: block;
-    width: 643px;
+    width: 42vw;
     border: 5px solid red;
     background-color: white;
     border-bottom: none;
@@ -164,7 +164,7 @@ strong
   .Experience
   {
     display: block;
-    width: 643px;
+    width: 42vw;
     border: 5px solid red;
     background-color: white;
     border-top: none;
@@ -285,8 +285,8 @@ strong
 .Abilities
 {
     display: block;
-    width: 643px;
-    height: 600px;
+    width: 42vw;
+    height: 70vh;
     border: 5px solid red;
     background-color: white;
     border-top: none;
