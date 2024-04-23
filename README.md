@@ -14,4 +14,4 @@
  1. Click on photo to change to another photo due to javascript Function
  2. Click on Navigation bar to access different pages.
  3. Hover over some links to activate popups to display more informations
- 4. Leave ans sumbit message in contact page
+ 4. Sumbit message in contact page
