@@ -10,3 +10,8 @@
 
 [avatarmaker](https://avatarmaker.com/male/#google_vignette)
 
+# Instruction 
+ 1. Click on photo to change to another photo due to javascript Function
+ 2. Click on Navigation bar to access different pages.
+ 3. Hover over some links to activate popups to display more inforemations
+ 4. Leave ans sumbit message in contact page
