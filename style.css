@@ -394,6 +394,6 @@ div.gallery
 .map
 {
     position: absolute;
-    right: 740px;
-    bottom: -12px;
+    left: 12%;
+    bottom: 0;
 }
