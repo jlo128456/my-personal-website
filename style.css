@@ -1,8 +1,9 @@
 body
 {
-    background: url(./image/background.png) center no-repeat;
+    background-color: cornsilk;
+    /*background: url(./image/background.png) center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
@@ -37,12 +38,14 @@ nav
     text-align: center;
     padding: 10px;
 }
-img
+#avtar
 {
     text-align: center;
     width: 20%;
     display: block;
     margin: 0 auto;
+    border: 2px solid red;
+    
 }
 .name
 {
@@ -58,7 +61,7 @@ img
     margin: auto;
     margin-bottom: 10px;
     font-size: 1.5vw;
-    color: lime;
+    color:black;
 }
 /* Strong tag format */
 strong
@@ -187,7 +190,7 @@ strong
   }
  a
  {
-    color: chartreuse;
+    color: black;
  }
  .clearfix:after 
  {
@@ -307,4 +310,90 @@ div.Abilities
 {
     margin-left: 28vw;
     margin-right: 28vw;
+}
+div.project-1 img
+{
+    overflow-clip-margin:  content-box;
+    overflow: clip;
+    border: 4px solid red;
+    border-bottom: none;
+    margin-right: 2%;
+    
+   
+}
+div.desc
+{
+    padding: 15px;
+    text-align: center;
+    color: darkviolet;
+    border: 4px solid red;
+    margin-top: -4px;
+    border-top:none ;
+    background-color: #fff;
+}
+div.project-1 
+{
+    padding: 0 6px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    
+   
+   
+    
+}
+*
+{
+    box-sizing: border-box;
+}
+div.project h1
+{
+    
+    display: inline-table;
+    word-wrap: none;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+}
+.about
+{
+    width: 42vw;
+    border: 5px solid red;
+    background-color: white;
+    display: block;
+    font-size: 1vw;
+    text-align: justify;
+    margin: auto;
+}
+.about p 
+{
+    margin: 1vw;
+}
+.about h4
+{
+    margin: 1vw;
+}
+div.project-1 h1
+{
+    margin: 0;
+
+}
+div.gallery
+{
+    margin: 2px;
+}
+
+
+.social a
+{
+    
+    margin: 1%;
+}
+
+.map
+{
+    position: absolute;
+    right: 758px;
+    bottom: 6px;
 }

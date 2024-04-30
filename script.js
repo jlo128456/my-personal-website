@@ -31,9 +31,28 @@ function changeImage()
     if (imageElement.src.match("./image/avtar.png")) 
     {
         // Change to a new image on click
-        imageElement.src = "./image/newimg2.png";
+        imageElement.src = "./image/jeff2.png";
     } else {
         // Change back to the original image on the next click
         imageElement.src = "./image/avtar.png";
     }
 }
+
+function submitForm() 
+{
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+  
+    // You can customize the email address where the message will be sent
+    var recipientEmail = "jlo12845@gmail.com";
+  
+    var subject = "New Contact Message from " + name;
+    var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
+  
+    // Compose the mailto URL
+    var mailtoLink = "mailto:" + recipientEmail + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  
+    // Open the default email client with the pre-filled message
+    window.location.href = mailtoLink;
+  }
