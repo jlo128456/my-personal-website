@@ -2,6 +2,7 @@
  Hi, My name is Jeff and I'm currently studying to become a software engineer through Academy Xi.
  This Personal Website will reflect what I have learnt and basically my digtal resume.
  There will be hidden infomation, and infomation will Pop Up after mouse activity has been detected.
+ As I progress more information will be add to this website for furture employment.
 
 # Picture and images source
 [hdwpro.com](https://hdwpro.com/wp-content/uploads/2017/05/3D-Background.jpg)
