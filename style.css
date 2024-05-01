@@ -393,7 +393,7 @@ div.gallery
 
 .map
 {
-    position: absolute;
-    left: 12%;
+    position: fixed;
+    left: 15%;
     bottom: 0;
 }
