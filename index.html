@@ -1,26 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <link rel="stylesheet" href="style.css"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My Personal Website</title>
-  </head>
-    <body>
-    
-      <header>
-          <h1>Hello World My first Personal Website!</h1>
-      </header>
-          <img id="avtar" src="./image/avtar.png" alt="My avtar"onclick="changeImage()"/>
-          <script src="./script.js"></script>
-          
-        <nav> <!-- navigation bar-->
-          <a href="./about.html">About</a>
-          <a href="./portfolio.html">Portfolio</a>
-          <a href="./resume.html">Resume</a>
-          <a href="./contact.html">Contact</a>
-        </nav>
-   
-    
-    
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffrey Lo - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header with Logo -->
+    <header>
+        <div class="logo">
+            <img src="./image/avtar.png" alt="Logo" class="logo-img">
+            <h2>Jeffrey Lo</h2>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Profile Section -->
+        <div class="profile-container">
+            <div class="profile-image">
+                <img src="./image/jeff2.png" alt="Profile Image" class="profile-pic">
+            </div>
+            <div class="profile-details">
+                <h1>Jeffrey Lo</h1>
+                <p class="subtext">(yes, it's a mouthful)</p>
+                <p class="description">
+                  I'm an Electronic Technician with a passion for software engineering, focusing on creating accessible and inclusive designs that bridge technology and serviceability.
+                </p>
+                <!-- Social Media Icons -->
+                <div class="social-icons">
+                    <a href="#"><img src="medium-icon.png" alt="Medium"></a>
+                    <a href="mailto:j.lo128456@gmail.com"><img src="email-icon.png" alt="Email"></a>
+                    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="contact-icon.png" alt="Contact"></a>
+                </div>
+            </div>
+        </div>
+
+                    
+            <!-- Education Section -->
+            <div class="education clearfix">
+                <h3>Education</h3>
+                <p><strong>March 2024 & Current:</strong> Software Engineering at Academy Xi</p>
+                <p><strong>November 2009:</strong> Certificate III in Electrotechnology in Entertainment and Servicing</p>
+                <p><strong>October 2005:</strong> Certificate I in Electrotechnology</p>
+                <p><strong>Jan 2001:</strong> Microsoft Certified Professional System Engineer</p>
+                <p><strong>November 2000:</strong> Grace Lutheran College Senior Certificate</p>
+            </div>
+            
+            <!-- Work Experience Section -->
+            <div class="experience clearfix">
+                <h3>Work Experience</h3>
+                <p><strong>2019-Current:</strong> Prefect Agencies Currency Management <strong>Job Title:</strong> Field Service Technician</p>
+                <ul><li>Maintaining currency counting devices in the field</li></ul>
+                
+                <p><strong>2016-2019:</strong> Cubic Transport Solution <strong>Job Title:</strong> Workshop Technician</p>
+                <ul><li>Workshop maintenance on GO Card system for Translink</li></ul>
+                
+                <p><strong>2012-2016:</strong> Integrated Technology Solution <strong>Job Title:</strong> Field Service Technician</p>
+                <ul><li>Performing complete line maintenance on Automatic Teller Machines</li></ul>
+                
+                <p><strong>2011-2012:</strong> FoneBiz (QLD) <strong>Job Title:</strong> Mobile Phone Technician</p>
+                <ul><li>Repairing mobile devices</li></ul>
+                
+                <p><strong>2007-2011:</strong> Brice Australia (QLD) <strong>Job Title:</strong> Field Service Technician</p>
+                <ul>
+                    <li>Performing general servicing on food processing equipment</li>
+                    <li>Providing technical support and spare parts management</li>
+                </ul>
+                
+                <p><strong>2005-2007:</strong> Bakers TV and Electronics <strong>Job Title:</strong> Workshop Technician</p>
+                <ul><li>Component-level repair and diagnostics on electronic equipment</li></ul>
+                
+                <p><strong>2002-2005:</strong> Betta Electrical Store <strong>Job Title:</strong> Sales and Technical Support</p>
+                <p><strong>2001-2002:</strong> Source Technology <strong>Job Title:</strong> Service Technician / Warehouse</p>
+            </div>
+
+            <!-- Skills and Abilities Section -->
+            <div class="abilities clearfix">
+                <h3>Special Skills and Abilities</h3>
+                <ul>
+                    <li>Quickly learns new skills and techniques</li>
+                    <li>Excellent interpersonal skills</li>
+                    <li>Works well independently and as part of a team</li>
+                    <li>Motivated and reliable</li>
+                </ul>
+                <h3>License</h3>
+                <ul>
+                    <li>Restricted Electrical Work License (148673)</li>
+                    <li>Manual Driver's License</li>
+                </ul>
+                <h3>References</h3>
+                <p>Available upon request</p>
+            </div>
+        </section>
+    </main>
+
+</body>
 </html>
