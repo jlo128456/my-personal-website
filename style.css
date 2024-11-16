@@ -59,7 +59,8 @@ p {
 
 .hero-image img {
     width: 100%;
-    max-width: 350px;
+    max-width: 300px; /* Adjust the max size */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     box-shadow: 0 4px 10px gray;
 }
