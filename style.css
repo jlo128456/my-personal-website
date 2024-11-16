@@ -1,192 +1,125 @@
-/* Basic Reset */
-* {
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: lightgray;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fef9f6;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-/* Header */
-header {
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.logo-img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.logo h2 {
-    font-size: 1.5em;
+h1, h2, h3 {
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
-/* Main Profile Section */
-main {
-    width: 100%;
-    max-width: 1000px;
-    padding: 40px 20px;
+p {
+    margin-bottom: 1rem;
+}
+
+/* Section Styles */
+.section {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: dodgerblue;
+    margin-bottom: 1.5rem;
+}
+
+/* Card Layout */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.card p, .card ul {
+    font-size: 1rem;
+    color: dimgray;
+}
+
+/* Profile Section */
+#profile {
+    background: linear-gradient(135deg, dodgerblue, skyblue);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .profile-container {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-/* Profile Image */
-.profile-image .profile-pic {
-    width: 180px;
-    height: 180px;
+.profile-pic {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 1rem;
 }
 
-/* Profile Details */
 .profile-details h1 {
-    font-size: 2em;
-    margin-bottom: 0.3em;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.subtext {
-    color: #666;
-    font-size: 0.9em;
-    margin-bottom: 20px;
-}
-
-.description {
-    max-width: 400px;
-    margin-bottom: 20px;
-    color: #555;
-    line-height: 1.6;
-}
-
-/* Social Icons */
-.social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 15px;
+.profile-details .description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
 }
 
 .social-icons a {
+    margin: 0 8px;
     display: inline-block;
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s ease;
+    transition: transform 0.2s ease;
 }
 
-.social-icons a img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.social-icons img {
+    width: 30px;
+    filter: invert(1); /* White icons */
 }
 
 .social-icons a:hover {
     transform: scale(1.1);
 }
 
-/* Resume Section */
-#resume {
-    padding: 20px 0;
-    border-top: 1px solid #ddd;
-}
-
-#resume h2 {
-    font-size: 1.8em;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
-}
-
-#resume #details {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #555;
-}
-
-/* Subsections */
-.education, .experience, .abilities {
-    margin-bottom: 30px;
-}
-
-.education h3, .experience h3, .abilities h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #f7d5e4;
-    padding-bottom: 5px;
-}
-
-.education p, .experience p {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-.experience ul, .abilities ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-top: 10px;
-    color: #555;
-}
-
-.experience ul li, .abilities ul li {
-    margin-bottom: 5px;
-}
-
-/* Footer */
-footer {
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f7d5e4;
-    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-.language-switch {
-    display: flex;
-    gap: 10px;
-}
-
-.lang-btn {
-    padding: 5px 10px;
-    border: none;
-    background-color: #fef9f6;
-    color: #333;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.lang-btn.active,
-.lang-btn:hover {
-    background-color: #cfeccf;
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-container {
+        padding: 2rem 1rem;
+    }
 }
