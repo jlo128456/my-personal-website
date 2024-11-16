@@ -26,5 +26,5 @@ Here’s a glimpse of the key skills I bring to the table:
 Feel free to connect with me or explore my work further:
 
 - **Blogging Wbsite**: [My Personal Blog](https://jlo128456.github.io/Personal_Blog/)
-- **Personal Website**: [My Personal Blog](https://jlo128456.github.io/my-personal-website/) 
+- **Personal Website**: [My Personal Website](https://jlo128456.github.io/my-personal-website/) 
 - **Email**: [j.lo128456@gmail.com](mailto:j.lo128456@gmail.com)
