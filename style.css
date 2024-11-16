@@ -177,3 +177,39 @@ footer .social-icons img {
     width: 24px;
     margin: 0 8px;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-tagline {
+        font-size: 2rem;
+    }
+
+    .hero-subtagline {
+        font-size: 1.2rem;
+    }
+
+    .expertise-cards {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-image img {
+        width: 120px;
+    }
+
+    .portfolio-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
