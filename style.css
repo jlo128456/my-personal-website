@@ -218,4 +218,7 @@ footer .social-icons img {
     .expertise, .portfolio {
         padding: 2rem 1rem;
     }
+    .hero-image img {
+        max-width: 200px; /* Smaller size for mobile screens */
+    }
 }
