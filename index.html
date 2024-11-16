@@ -3,91 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeffrey Lo - Personal Website</title>
+    <title>Jeffrey Lo - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--     Navigation Bar
-    <nav class="navbar">
-        <div class="logo">Jeffrey Lo</div>
-        <ul class="nav-links">
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav> -->
 
-    <!-- Profile Section -->
-    <section id="profile" class="section profile">
-        <div class="profile-container">
-            <img src="./image/jeff2.png" alt="Profile Image" class="profile-pic">
-            <div class="profile-details">
-                <h1>Jeffrey Lo</h1>
-                <p class="subtext">(yes, it's a mouthful)</p>
-                <p class="description">
-                    I'm an Electronic Technician with a passion for software engineering, focusing on creating accessible and inclusive designs that bridge technology and serviceability.
-                </p>
-                <div class="social-icons">
-                    <a href="mailto:j.lo128456@gmail.com"><img src="./image/email.png" alt="Email"></a>
-                    <a href="https://www.linkedin.com/in/jeffrey-lo-b4a3915b"><img src="./image/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://www.facebook.com/jeff.491548/"><img src="./image/facebook.png" alt="Facebook"></a>
-                </div>
-            </div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-tagline">
+                I'm a <span class="highlight">beginner software engineer</span>
+            </h1>
+            <p class="hero-subtagline">
+                with a passion to <span class="highlight-secondary">build better apps</span>.
+            </p>
+            <a href="#portfolio" class="button">View My Work</a>
         </div>
-    </section>    
+        <div class="hero-image">
+            <img src="./image/jeff2.png" alt="Profile Image">
+        </div>
+    </section>
+    
 
-    <!-- Education Section -->
-    <section id="education" class="section education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>March 2024 & Current:</strong> Software Engineering at Academy Xi</li>
-            <li><strong>November 2009:</strong> Certificate III in Electrotechnology in Entertainment and Servicing</li>
-            <li><strong>October 2005:</strong> Certificate I in Electrotechnology</li>
-            <li><strong>January 2001:</strong> Microsoft Certified Professional System Engineer</li>
-            <li><strong>November 2000:</strong> Grace Lutheran College Senior Certificate</li>
-        </ul>
+    <!-- My Expertise (Skills) Section -->
+<section id="expertise" class="expertise">
+    <h2>My Expertise</h2>
+    <div class="expertise-cards">
+        <div class="card">
+            <h3>Quick Learner</h3>
+            <p>Quickly adapts to new skills and techniques, staying updated with industry standards.</p>
+        </div>
+        <div class="card">
+            <h3>Interpersonal Skills</h3>
+            <p>Excellent communication and interpersonal skills, able to work well with teams and clients.</p>
+        </div>
+        <div class="card">
+            <h3>Teamwork</h3>
+            <p>Experienced in collaborating effectively with team members to achieve common goals.</p>
+        </div>
+        <div class="card">
+            <h3>Reliability</h3>
+            <p>Highly motivated and reliable, always dedicated to delivering quality work on time.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="./image/jeff2.png" alt="Jeffrey Lo">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I'm Jeffrey Lo, an Electronic Technician with a passion for software engineering. I focus on creating accessible and inclusive designs that bridge technology and serviceability.</p>
+        </div>
     </section>
 
-    <!-- Work Experience Section -->
-    <section id="experience" class="section experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li><strong>2019-Current:</strong> Field Service Technician at Prefect Agencies Currency Management</li>
-            <li><strong>2016-2019:</strong> Workshop Technician at Cubic Transport Solution</li>
-            <li><strong>2012-2016:</strong> Field Service Technician at Integrated Technology Solution</li>
-            <li><strong>2011-2012:</strong> Mobile Phone Technician at FoneBiz (QLD)</li>
-            <li><strong>2007-2011:</strong> Field Service Technician at Brice Australia (QLD)</li>
-        </ul>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section skills">
-        <h2>Special Skills and Abilities</h2>
-        <ul>
-            <li>Quickly learns new skills and techniques</li>
-            <li>Excellent interpersonal skills</li>
-            <li>Works well independently and as part of a team</li>
-            <li>Motivated and reliable</li>
-        </ul>
-        <h3>Licenses</h3>
-        <ul>
-            <li>Restricted Electrical Work License (148673)</li>
-            <li>Manual Driver's License</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:j.lo128456@gmail.com">j.lo128456@gmail.com</a></p>
+    <!-- My Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <img src="./image/project1.png" alt="Project 1">
+                <p>Project Title 1</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/project2.png" alt="Project 2">
+                <p>Project Title 2</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./image/project3.png" alt="Project 3">
+                <p>Project Title 3</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>© 2024 Jeffrey Lo. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><img src="medium-icon.png" alt="Medium"></a>
+            <a href="mailto:j.lo128456@gmail.com"><img src="email-icon.png" alt="Email"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
     </footer>
+
 </body>
 </html>
